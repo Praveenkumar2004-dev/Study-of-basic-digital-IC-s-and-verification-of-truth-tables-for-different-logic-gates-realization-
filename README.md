@@ -1,5 +1,5 @@
 # Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
- AIM:
+# AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
 Equipments Required:
@@ -58,15 +58,34 @@ Press the switches for inputs “A” and “B”. The switch is ON state when 1
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
 Program:
-/*
+```
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-Logic symbol & Truthtable
-RTL realization
-Output:
-RTL
+Developed by: PRAVEEN KUMAR S
+RegisterNumber:212222230108  
 
-Result:
+module EXPERIMENTA (a,b,c,d,e,f,g,h,i);
+input a,b;
+output c,d,e,f,g,h,i;
+and (c,a,b);
+or (d,a,b);
+not (e,a);
+xor (f,a,b);
+nand (g,a,b);
+nor (h,a,b);
+xnor (i,a,b);
+endmodule
+```
+## Logic symbol & Truthtable Logic symbol:
+![DD01](https://user-images.githubusercontent.com/119559827/233400839-fcd91101-029b-46f9-9761-bc6292a772cd.png)
+
+## TRUTH TABLE:
+![DD03](https://user-images.githubusercontent.com/119559827/233401261-4f7f612a-68bb-4603-885d-99dd221ef10a.png)
+
+# RTL realization:
+![DD04](https://user-images.githubusercontent.com/119559827/233402075-48a380cd-67c5-43c9-8dc5-68b1845784c7.png)
+
+# Wave form:
+![DD05](https://user-images.githubusercontent.com/119559827/233402351-198ed723-45cd-4aef-b918-4112fb7c323e.png)
+
+# Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
